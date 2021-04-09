@@ -27,5 +27,14 @@ public class MainServiceApplication {
 		return "success";
 	}
 	
+	@RequestMapping(value = "/jenkin")
+	public String m3() {
+		
+		
+		return "success jenkin";
+	}
+	
+	
+	
 
 }
