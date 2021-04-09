@@ -20,5 +20,12 @@ public class MainServiceApplication {
 		return "success";
 	}
 	
+	@RequestMapping(value = "/gets")
+	public String m2() {
+		
+		
+		return "success";
+	}
+	
 
 }
